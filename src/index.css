@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+@import url('https://fonts.googleapis.com/css?family=Text+Me+One');
+
+body
+{
+  background-color: #edeff4;
+}
+
+hr
+{
+  border-top: 5px dotted #8c8b8a;
+  margin-right: 0px;
+}
+
+p
+{
+  font-family: Text Me One;
+  font-size: 20px;
+}
+
+.btnkill
+{
+  background: #e04e4e;
+  background-image: -webkit-linear-gradient(top, #e04e4e, #541414);
+  background-image: -moz-linear-gradient(top, #e04e4e, #541414);
+  background-image: -ms-linear-gradient(top, #e04e4e, #541414);
+  background-image: -o-linear-gradient(top, #e04e4e, #541414);
+  background-image: linear-gradient(to bottom, #e04e4e, #541414);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 14px 4px 14px;
+  border: solid #1f628d 3px;
+  text-decoration: none;
+}
+
+.btnkill:hover
+{
+  background: #db000b;
+  background-image: -webkit-linear-gradient(top, #db000b, #a80f0f);
+  background-image: -moz-linear-gradient(top, #db000b, #a80f0f);
+  background-image: -ms-linear-gradient(top, #db000b, #a80f0f);
+  background-image: -o-linear-gradient(top, #db000b, #a80f0f);
+  background-image: linear-gradient(to bottom, #db000b, #a80f0f);
+  text-decoration: none;
+}
+
+.btnrev
+{
+  background: #7abcf5;
+  background-image: -webkit-linear-gradient(top, #7abcf5, #00384d);
+  background-image: -moz-linear-gradient(top, #7abcf5, #00384d);
+  background-image: -ms-linear-gradient(top, #7abcf5, #00384d);
+  background-image: -o-linear-gradient(top, #7abcf5, #00384d);
+  background-image: linear-gradient(to bottom, #7abcf5, #00384d);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 14px 4px 14px;
+  border: solid #006eb3 3px;
+  text-decoration: none;
+}
+
+.btnrev:hover
+{
+  background: #008dd9;
+  background-image: -webkit-linear-gradient(top, #008dd9, #086a82);
+  background-image: -moz-linear-gradient(top, #008dd9, #086a82);
+  background-image: -ms-linear-gradient(top, #008dd9, #086a82);
+  background-image: -o-linear-gradient(top, #008dd9, #086a82);
+  background-image: linear-gradient(to bottom, #008dd9, #086a82);
+  text-decoration: none;
+}
+
+.serversDiv
+{
+  float: right;
+  width: 60%;
+  margin-left: 30px;
+}
+
+.wrapper
+{
+  margin: auto;
+  width: 90%;
+}
+
+#serverStatus
+{
+  font-weight: bold;
+  font-style: italic;
+}
+
+#bigheader
+{
+  font-family: Barrio;
+  letter-spacing: 5px;
+  font-size: 50px;
+  padding-left: 100px;
+}
